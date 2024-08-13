@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-  
-    "start": "parcel index.html --host 192.168.35.214 --port 4000"
+    "start": "parcel index.html"
   },
   "keywords": [],
   "author": "",
