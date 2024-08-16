@@ -1,9 +1,11 @@
 function check () {
-    throw new Error("Required parameter")
+    console.log("Check")
 }
 
-function abc(a= check()){
-    return a;
+function abc(){
+    console.log("abc")
 }
 
-console.log(abc())
+// console.log(abc())
+
+module.exports = {a:abc, b:check};
